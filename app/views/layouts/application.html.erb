@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EasyDepot</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title>Bookshop Online</title>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bookshop Onlinea">
+  <meta name="author" content="Fernando Javier Muñoz">
+  <meta name="author" content="Juan Francisco Pose">
+
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="/assets/app-icon-128.png" >
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/app-icon-128.png" >
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/app-icon-128.png" >
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/app-icon-128.png" >
+  <link rel="apple-touch-icon-precomposed" href="/assets/app-icon-48.png" >
+
 </head>
-<body>
+<body id="store">
+  <div id="banner">
+    <%= image_tag("brand.png" ) %>
+    <%= @page_title || "Living Books" %>
+  </div>
 
-<%= yield %>
+  <div id="columns">
+    <div id="side">
+      <a href="/404.html">Home</a><br />
+      <a href="/422.html">Questions</a><br />
+      <a href="/500.html">News</a><br />
+      <a href="#">Contact</a><br />
+    </div>
 
+    <div id="main">
+      <%= yield %>
+    </div>
+  </div>
+
+  <%= javascript_include_tag "application" %>
 </body>
 </html>

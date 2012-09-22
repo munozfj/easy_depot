@@ -25,3 +25,7 @@ Free icons for personal use: http://www.iconarchive.com
 Efecto Lightbox con JavaScript: http://blog.unijimpe.net/efecto-lightbox-con-css/
 
 Buenas practicas en Rails: http://rails-bestpractices.com/
+
+The Pragmatic Bookshelf: http://pragprog.com/wikis/wiki/RailsPlayTime
+
+

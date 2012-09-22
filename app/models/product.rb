@@ -1,6 +1,9 @@
 class Product < ActiveRecord::Base
   attr_accessible :description, :image_url, :price, :title
 
+  #Clause de order by para las consultas
+  default_scope :order => 'title'
+
   #Validaciones
   validates :title, :description, :image_url, :presence => true
 
