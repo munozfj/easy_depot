@@ -26,6 +26,13 @@ Efecto Lightbox con JavaScript: http://blog.unijimpe.net/efecto-lightbox-con-css
 
 Buenas practicas en Rails: http://rails-bestpractices.com/
 
+
+=================================
+
 The Pragmatic Bookshelf: http://pragprog.com/wikis/wiki/RailsPlayTime
+
+Validaciones Rails con ventanas modal: http://stackoverflow.com/questions/6374664/rails-and-modal-jquery-dialog-form
+
+
 
 
