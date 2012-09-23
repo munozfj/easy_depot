@@ -174,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70e610', end
   color: white;
 }
 
-body
+body-celeste
 {
   background: rgb(0,101,134); /* Old browsers */
 background: -moz-linear-gradient(left, rgba(0,101,134,1) 0%, rgba(1,145,189,1) 60%, rgba(0,170,226,1) 100%); /* FF3.6+ */
@@ -184,6 +184,12 @@ background: -o-linear-gradient(left, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,
 background: -ms-linear-gradient(left, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* IE10+ */
 background: linear-gradient(to right, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006586', endColorstr='#00aae2',GradientType=1 ); /* IE6-9 */
+  color: white;
+}
+
+body
+{
+  background-image: url("/assets/app-background-blue-bubbles.png");
   color: white;
 }
 
