@@ -161,9 +161,36 @@ color: #bfb;
 font-size: small;
 }
 
+body-verde
+{
+  background: #70e610; /* Old browsers */
+background: -moz-linear-gradient(left, #70e610 0%, #5cbd0d 17%, #48940a 33%, #265400 67%, #183600 83%, #0a1600 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#70e610), color-stop(17%,#5cbd0d), color-stop(33%,#48940a), color-stop(67%,#265400), color-stop(83%,#183600), color-stop(100%,#0a1600)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #70e610 0%,#5cbd0d 17%,#48940a 33%,#265400 67%,#183600 83%,#0a1600 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #70e610 0%,#5cbd0d 17%,#48940a 33%,#265400 67%,#183600 83%,#0a1600 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #70e610 0%,#5cbd0d 17%,#48940a 33%,#265400 67%,#183600 83%,#0a1600 100%); /* IE10+ */
+background: linear-gradient(to right, #70e610 0%,#5cbd0d 17%,#48940a 33%,#265400 67%,#183600 83%,#0a1600 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70e610', endColorstr='#0a1600',GradientType=1 ); /* IE6-9 */
+  color: white;
+}
+
 body
 {
-  background-image: url("/assets/app-background.png");
-  background-color: green;
+  background: rgb(0,101,134); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(0,101,134,1) 0%, rgba(1,145,189,1) 60%, rgba(0,170,226,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,101,134,1)), color-stop(60%,rgba(1,145,189,1)), color-stop(100%,rgba(0,170,226,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(0,101,134,1) 0%,rgba(1,145,189,1) 60%,rgba(0,170,226,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006586', endColorstr='#00aae2',GradientType=1 ); /* IE6-9 */
+  color: white;
 }
+
+
+
+#store .entry form, #store .entry form div {
+display: inline;
+}
+
 
