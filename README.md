@@ -1,4 +1,5 @@
-        Bienvenidos a Easy Depot
+
+        Bienvenidos a Living Books
 
 Materia:    Lenguajes Scripting
 
@@ -26,7 +27,7 @@ Efecto Lightbox con JavaScript: http://blog.unijimpe.net/efecto-lightbox-con-css
 
 Buenas practicas en Rails: http://rails-bestpractices.com/
 
-
+Como hacer un clone: http://myprogrammingblog.com/2012/01/20/github-how-clone-github-repo-how-to-push-to-github-how-to-get-files-from-github-ubuntu/
 =================================
 
 The Pragmatic Bookshelf: http://pragprog.com/wikis/wiki/RailsPlayTime
