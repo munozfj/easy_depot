@@ -23,6 +23,8 @@ Rails Guides entry on the asset pipeline: http://guides.rubyonrails.org/asset_pi
 
 Free icons for personal use: http://www.iconarchive.com
 
+Manual de GIT: http://git-scm.com/book/es
+
 Efecto Lightbox con JavaScript: http://blog.unijimpe.net/efecto-lightbox-con-css/
 
 Buenas practicas en Rails: http://rails-bestpractices.com/
