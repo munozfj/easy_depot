@@ -27,13 +27,10 @@
 
   <div id="columns">
     <div id="side">
-      <div id="cart"> 
-        <% if @cart %>
-          <%= hidden_div_if(@cart.line_items.empty?, :id => "cart" ) do %>
-            <%= render @cart %>
-          <% end %>
-        <% end %>
-      </div>
+
+      <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+        <%= render @cart %>
+      <% end %>
 
       <a href="/404.html">Home</a><br />
       <a href="/422.html">Questions</a><br />
