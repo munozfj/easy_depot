@@ -32,10 +32,30 @@ Buenas practicas en Rails: http://rails-bestpractices.com/
 Como hacer un clone: http://myprogrammingblog.com/2012/01/20/github-how-clone-github-repo-how-to-push-to-github-how-to-get-files-from-github-ubuntu/
 =================================
 
-The Pragmatic Bookshelf: http://pragprog.com/wikis/wiki/RailsPlayTime
+The Pragmatic Bookshelf: 
 
-Validaciones Rails con ventanas modal: http://stackoverflow.com/questions/6374664/rails-and-modal-jquery-dialog-form
+      http://pragprog.com/wikis/wiki/RailsPlayTime
 
+Validaciones Rails con ventanas modal: 
+
+      http://stackoverflow.com/questions/6374664/rails-and-modal-jquery-dialog-form
+
+Tutoriales para enviar mails con Rails:
+
+      https://devcenter.heroku.com/articles/smtp#sending-email-from-rails
+
+
+      http://asciicasts.com/episodes/206-action-mailer-in-rails-3
+
+      http://guides.rubyonrails.org/action_mailer_basics.html
+
+      http://stackoverflow.com/questions/4313177/sending-mail-with-rails-3-in-development-environment
+
+Entendiendo Twitter-Bootstrap
+
+      http://railsapps.github.com/twitter-bootstrap-rails.html
+        
+      http://rubysource.com/twitter-bootstrap-less-and-sass-understanding-your-options-for-rails-3-1/
 
 
 
